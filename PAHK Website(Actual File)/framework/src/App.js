@@ -10,7 +10,7 @@ function App() {
        <button>Add todos</button>
        <button>clear complete</button>
     </>
-  )
+  );
 }
 
 export default App;
