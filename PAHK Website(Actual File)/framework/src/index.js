@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 import Footer from './Footer';
 import Header from './Header';
 import Navibar from './Navibar';
+import Milestones from './Milestones';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
