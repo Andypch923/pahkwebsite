@@ -36,7 +36,7 @@ products and services
 
 Products and Services:
 Nav Bar to different products
-components for each product type
+components for each product type x 5
 Our servies (text div)
 
 Contact Us:
