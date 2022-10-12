@@ -21,7 +21,7 @@ Homepage:
 	slideshow component
 	description
 
-	upwards to down(desription):
+	One Page Navigation(desription):
 	about us
 	product and services
 	contact us
