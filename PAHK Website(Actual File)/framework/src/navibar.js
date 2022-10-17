@@ -1,27 +1,22 @@
-
+import "./styles.css"
 import React from 'react';
-import { Route, NavLink, Routes } from 'react-router-dom';
+import { Route, a, Routes } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 export default function Navibar(){
     return(
-        <div id='nav'>
-            <nav>
+        <div>
+            <nav className='nav'>
+                <h1>Site Name</h1>
                 <ul>
-                    <NavLink exact to="/">Home</NavLink>
-                    <NavLink to="/aboutus">About Us</NavLink>
-                    <NavLink to="/pands">Products and Services</NavLink>
-                    <NavLink to="/contactus">Contact Us</NavLink>
-                    <NavLink to="/mediaroom">Media Room</NavLink>
-                    <NavLink to="/appendix">Appendix</NavLink>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/aboutus">About Us</a></li>
+                    <li><a href="/pands">Products and Services</a></li>
+                    <li><a href="/contactus">Contact Us</a></li>
+                    <li><a href="/mediaroom">Media Room</a></li>
+                    <li><a href="/appendix">Appendix</a></li>
                 </ul>
             </nav>
-            <Route render ={({location}) =>(
-            <TransitionGroup>
-            <CSSTransition
-            key={location.key}
-            timeout={450}
-            classname="fade"
-            >
+
             <Routes>
                 <Route exact path="/"></Route>
                 <Route path="/aboutus"></Route>
@@ -30,9 +25,8 @@ export default function Navibar(){
                 <Route path="/mediaroom"></Route>
                 <Route path="/appendix"></Route>
             </Routes>
-            </CSSTransition>
-            </TransitionGroup>
-            )}/>
+           
+            
         </div>
     )
 }
