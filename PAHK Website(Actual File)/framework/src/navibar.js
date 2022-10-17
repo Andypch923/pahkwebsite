@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Route, NavLink, Routes } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
@@ -14,7 +15,13 @@ export default function Navibar(){
                     <NavLink to="/appendix">Appendix</NavLink>
                 </ul>
             </nav>
-
+            <Route render ={({location}) =>(
+            <TransitionGroup>
+            <CSSTransition
+            key={location.key}
+            timeout={450}
+            classname="fade"
+            >
             <Routes>
                 <Route exact path="/"></Route>
                 <Route path="/aboutus"></Route>
@@ -23,6 +30,9 @@ export default function Navibar(){
                 <Route path="/mediaroom"></Route>
                 <Route path="/appendix"></Route>
             </Routes>
+            </CSSTransition>
+            </TransitionGroup>
+            )}/>
         </div>
     )
 }
