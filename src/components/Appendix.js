@@ -3,5 +3,4 @@ export default function Appendix(){
     return(
         <p>Appendix</p>
     )
-
 }

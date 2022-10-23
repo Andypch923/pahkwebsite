@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-
+import React from 'react';
 import { Route, NavLink, Routes } from 'react-router-dom';
+// eslint-disable-next-line
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 export default function Navibar(){
     return(
