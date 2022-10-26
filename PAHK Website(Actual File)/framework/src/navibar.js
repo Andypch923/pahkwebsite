@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-
+import React from 'react';
 import { Route, NavLink, Routes } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 export default function Navibar(){

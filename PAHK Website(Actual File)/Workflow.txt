@@ -33,7 +33,6 @@ Milestones
 Company Philosophy
 products and services
 
-
 Products and Services:
 Nav Bar to different products
 components for each product type x 5
@@ -47,3 +46,9 @@ X
 
 Appendix:
 One text div
+
+Header, Footer, NavBar, Social Media Bar, Nav button(Go to top), Language Bar
+Common components for each page
+
+Steps rn:
+Components -> Networking -> Email System and Blog -> CSS Styling & Bootstrap for responsive web design
