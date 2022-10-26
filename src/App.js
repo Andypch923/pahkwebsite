@@ -1,15 +1,15 @@
 import React from "react";
 
 import { BrowserRouter } from "react-router-dom";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import Navibar from "./components/Navibar";
-import Home from "./components/Home/Home"
-import AboutUs from "./components/AboutUs/AboutUs"
-import ProductsAndServices from "./components/ProductsAndServices/ProductsAndServices"
-import ContactUs from "./components/ContactUs/ContactUs"
-import MediaRoom from "./components/MediaRoom/MediaRoom"
-import Appendix from "./components/Appendix/Appendix"
+import Home from "./components/Home"
+import AboutUs from "./components/AboutUs"
+import ProductsAndServices from "./components/ProductsAndServices"
+import ContactUs from "./components/ContactUs"
+import MediaRoom from "./components/MediaRoom"
+import Appendix from "./components/Appendix"
 
 function App() {
   let Component;
@@ -35,7 +35,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <>
       <Header />
       <BrowserRouter>
         <Navibar />
@@ -43,7 +43,7 @@ function App() {
 
       </BrowserRouter>
       <Footer />
-    </div>
+    </>
   );
 }
 
