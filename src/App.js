@@ -1,18 +1,48 @@
-import React, {useState} from "react";
-import TodoList from "./components/TodoList";
-import Todo from "./components/Todo";
+import React from "react";
+
+import { BrowserRouter } from "react-router-dom";
 import Footer from "./components/Footer";
-import Navibar from "./components/Navibar";
 import Header from "./components/Header";
+import Navibar from "./components/Navibar";
+import Home from "./components/Home"
+import AboutUs from "./components/AboutUs"
+import ProductsAndServices from "./components/ProductsAndServices"
+import ContactUs from "./components/ContactUs"
+import MediaRoom from "./components/MediaRoom"
+import Appendix from "./components/Appendix"
 
 function App() {
-  const [todos] = useState(['todo1','todo2'])
+  let Component;
+  switch (window.location.pathname) {
+    case "/":
+      Component = Home;
+      break;
+    case "/aboutus":
+      Component = AboutUs;
+      break;
+    case "/pands":
+      Component = ProductsAndServices;
+      break;
+    case "/contactus":
+      Component = ContactUs;
+      break;
+    case "/mediaroom":
+      Component = MediaRoom;
+      break;
+    case "/appendix":
+      Component = Appendix;
+      break;
+  }
+
   return (
     <>
-       <TodoList todos = {todos}/>
-       <input type= "text" />
-       <button>Add todos</button>
-       <button>clear complete</button>
+      <Header />
+      <BrowserRouter>
+        <Navibar />
+        <Component />
+
+      </BrowserRouter>
+      <Footer />
     </>
   );
 }
