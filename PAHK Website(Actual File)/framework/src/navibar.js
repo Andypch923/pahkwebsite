@@ -8,7 +8,7 @@ export default function Navibar(){
             <nav className='nav'>
                 <h1>Site Name</h1>
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li className="active"><a href="/">Home</a></li>
                     <li><a href="/aboutus">About Us</a></li>
                     <li><a href="/pands">Products and Services</a></li>
                     <li><a href="/contactus">Contact Us</a></li>
