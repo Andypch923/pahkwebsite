@@ -1,0 +1,18 @@
+[
+    {
+        "id": "aboutUs",
+        "image": "image/monkey.png"
+    },
+    {
+        "id": "productsAndServices",
+        "image": "image/monkey.png"
+    },
+    {
+        "id": "contactUs",
+        "image":"image/monkey.png"
+    },
+    {
+        "id": "mediaRoom",
+        "image":"image/monkey.png"
+    }
+]
