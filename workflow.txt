@@ -18,10 +18,8 @@ Zeth: 3,6
 Components needed:
 
 Homepage:
-	slideshow component
-	description
-
-	One Page Navigation(desription):
+	slideshow component // css transition
+	One Page Navigation(desription): // Card list
 	about us
 	product and services
 	contact us

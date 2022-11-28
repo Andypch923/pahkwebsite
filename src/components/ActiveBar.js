@@ -7,6 +7,5 @@ export function ActiveBar(tab){
         x[i].className = x[i].className.replace(" w3-red", ""); 
     }
     y = document.getElementById(tab);
-    y.className += "w3-red";
     document.write('this has run')
 }
