@@ -1,7 +1,7 @@
 import React from "react";
 import IMAGES from "./index2.json";
 
-import Banner from "../Banner"
+import Banner from "../Banner/Banner";
 export default function Home() {
   return (
     <div className="Home">

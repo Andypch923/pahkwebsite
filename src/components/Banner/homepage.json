@@ -1,0 +1,22 @@
+[
+    {
+        "id": "image1",
+        "image": "img/slideshow photos/A.jpg",
+        "text":"Wide Range of Agricultural Products"
+    },
+    {
+        "id": "image2",
+        "image": "img/slideshow photos/B.jpg",
+        "text": "Over 20 years of Experience in Agriscience Industry"
+    },
+    {
+        "id": "image3",
+        "image": "img/slideshow photos/C.jpg",
+        "text": "Reliable and prompt Customer Services"
+    },
+    {
+        "id": "image4",
+        "image": "img/slideshow photos/D.jpg",
+        "text": "Well-established Worldwide connections"
+    }
+]

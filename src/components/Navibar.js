@@ -9,7 +9,7 @@ export default function Navibar(){
             <nav className='nav'>
                 <h1>Site Name</h1>
                 <ul>
-                    <li id = "HomeTab" onClick={ActiveBar()}><a href="/">Home</a></li>
+                    <li id = "HomeTab"><a href="/">Home</a></li>
                     <li id = "AboutUsTab"><a href="/aboutus">About Us</a></li>
                     <li id = "PandsTab"><a href="/pands">Products and Services</a></li>
                     <li id = "ContactUsTab"><a href="/contactus">Contact Us</a></li>
