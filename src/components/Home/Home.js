@@ -1,7 +1,6 @@
 import React from "react";
-import IMAGES from "./index2.json";
-
 import Banner from "../Banner"
+import CardList from "../Card/CardList";
 export default function Home() {
   return (
     <div className="Home">
@@ -11,11 +10,7 @@ export default function Home() {
             <Banner/>
 
           </top>
-        {IMAGES &&IMAGES.map((item) => (
-            <div key={item.id}>
-              <img src={item.image} alt="Monkey.png" />
-            </div>
-          ))}
+            <CardList/>
 
         <p>
           Pacific Agriscience devotes to provide farmers and the agricultural

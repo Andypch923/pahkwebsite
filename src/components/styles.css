@@ -1,6 +1,21 @@
 *{
     box-sizing: border-box;
 }
+.banner-container{
+    padding: 50;
+    width: 1250;
+    height: 1250;
+    background-image: url("../img/1.jpg");
+    
+}
+.banner-container img{
+    display: block;
+    height: auto;
+    width: auto;
+    max-height: 1100px;
+    max-width: 622px;
+    margin: 0 auto;
+}
 
 body{
     margin: 0;
@@ -62,3 +77,29 @@ body{
  .w3-red *{
     background-color:red;
  }
+ .card-container{
+    margin: 0;
+    padding: 5;
+ }
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .card img {
+    height: 600px;
+    width: 100%;
+  }
+    
+  .card p {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+
+  
+ 

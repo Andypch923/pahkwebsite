@@ -32,6 +32,8 @@ function App() {
     case "/appendix":
       Component = Appendix;
       break;
+    default:
+      Component = Home; 
   }
 
   return (

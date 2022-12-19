@@ -1,8 +1,6 @@
 import "./styles.css"
 import React from 'react';
-import { ActiveBar } from "./ActiveBar";
 import { Route, a, Routes } from 'react-router-dom';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 export default function Navibar(){
     return(
         <div>
