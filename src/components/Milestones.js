@@ -8,7 +8,7 @@ export default function Milestones(){
 	
 			<div>
 			<h2>1st Milestone</h2>
-			<hr />
+			<hr />  justify-items: center;
 			<p>In 1998, Pacific Agriscience Pte Ltd was established in Singapore</p>
 			</div>
 		

@@ -38,8 +38,8 @@ function App() {
     <div className="App">
       <Header />
       <BrowserRouter>
-        <Navibar />
-        <Component />
+        <Navibar/>
+        <Component/>
 
       </BrowserRouter>
       <Footer />
