@@ -1,10 +1,8 @@
 import React from 'react';
 import { Route, NavLink, Routes } from 'react-router-dom';
-// eslint-disable-next-line
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 export default function Navibar(){
     return(
-        <div id='nav'>
+        <div class='nav'>
             <nav>
                 <ul>
                     <NavLink exact to="/">Home</NavLink>

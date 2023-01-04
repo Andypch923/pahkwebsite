@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./components/styles.css"
 import { BrowserRouter } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -14,9 +14,7 @@ import Appendix from "./components/Appendix/Appendix"
 function App() {
   let Component;
   switch (window.location.pathname) {
-    case "/":
-      Component = Home;
-      break;
+    
     case "/aboutus":
       Component = AboutUs;
       break;
@@ -32,6 +30,8 @@ function App() {
     case "/appendix":
       Component = Appendix;
       break;
+    default:
+      Component = Home;
   }
 
   return (

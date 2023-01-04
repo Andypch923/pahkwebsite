@@ -64,7 +64,6 @@ body{
 .nav {
     background-color:black ;
     color:#777;
-    display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
