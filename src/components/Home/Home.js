@@ -1,12 +1,6 @@
 import React from "react";
-<<<<<<< Updated upstream
-import IMAGES from "./index2.json";
-
-import Banner from "../Banner"
-=======
 import Banner from "../Banner/Banner";
 import CardList from "../Card/CardList";
->>>>>>> Stashed changes
 export default function Home() {
   return (
     <div className="Home">
@@ -15,17 +9,9 @@ export default function Home() {
           <top>
             <Banner/>
           </top>
-<<<<<<< Updated upstream
-        {IMAGES &&IMAGES.map((item) => (
-            <div key={item.id}>
-              <img src={item.image} alt="Monkey.png" />
-            </div>
-          ))}
-=======
           <h1>"Caring & Sharing"</h1>
           <h2>It's what we do best</h2>
           <hr></hr>
->>>>>>> Stashed changes
 
           <p>
             Pacific Agriscience devotes to provide farmers and the agricultural
