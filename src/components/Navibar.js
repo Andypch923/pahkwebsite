@@ -7,12 +7,12 @@ export default function Navibar(){
             <nav className='nav'>
                 <h1>Site Name</h1>
                 <ul>
-                    <li id = "HomeTab"><a href="/">Home</a></li>
-                    <li id = "AboutUsTab"><a href="/aboutus">About Us</a></li>
-                    <li id = "PandsTab"><a href="/pands">Products and Services</a></li>
-                    <li id = "ContactUsTab"><a href="/contactus">Contact Us</a></li>
-                    <li id = "MediaRoomTab"><a href="/mediaroom">Media Room</a></li>
-                    <li id = "AppendixTab"><a href="/appendix">Appendix</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/aboutus">About Us</a></li>
+                    <li><a href="/pands">Products and Services</a></li>
+                    <li><a href="/contactus">Contact Us</a></li>
+                    <li><a href="/mediaroom">Media Room</a></li>
+                    <li><a href="/appendix">Appendix</a></li>
                 </ul>
             </nav>
 

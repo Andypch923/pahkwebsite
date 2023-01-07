@@ -4,8 +4,10 @@ import Card from "./Card";
 
 function CardList({items}){
     return(
+        <div >
             <Card/>   
-    )
+        </div>
+        )
 
 
 }
