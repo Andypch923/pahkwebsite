@@ -1,7 +1,8 @@
 import React from "react";
+import InquiryBox from "./InquiryBox";
 export default function ContactUs() {
   return (
-    <body>
+    <div>
       <h1>Contact Us</h1>
       <h3>Office Details</h3>
       <p>
@@ -19,6 +20,8 @@ export default function ContactUs() {
       <p>Stanley Poon, Administration and Logistics</p>
       <p>Phone no. (Hong Kong): (+852) 6303 3499</p>
       <p>Email: logistics@pacificagriscience.com</p>
-    </body>
+
+      <InquiryBox />
+      </div>
   );
 }
