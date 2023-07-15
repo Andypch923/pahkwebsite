@@ -13,6 +13,7 @@ export default function InquiryBox(){
           width: "100%",
           display: showCompany ? "block" : "none"
         };
+
     
     return(
         <div>
@@ -48,7 +49,7 @@ export default function InquiryBox(){
             <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea><br /><br />
             
-            <input type="submit" value="Submit" onclick={mailbox}/>
+            <input type="submit" value="Submit" onClick={mailbox}/>
             
             </form>
 </div>

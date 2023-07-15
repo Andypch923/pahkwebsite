@@ -17,6 +17,7 @@ export default function mailbox(){
         companyName = document.getElementById('companyName').value;
     }
 
+    console.log('outside')
 
     //send email with the above information using EmailJS service
     emailjs.send("service_qj2zy4j","template_t9jjsx1", {
@@ -28,12 +29,15 @@ export default function mailbox(){
         time_sent: time,
         company_name: companyName
     })
-    .then((response) => {
-        console.log("SUCCESS!", response.status, response.text);
-        alert("Your inquiry has been sent successfully. We'll get back to you shortly.");
-        form.reset(); // clear form fields
-      }, (error) => {
-        console.log("FAILED...", error);
-        alert("Oops! Something went wrong. Please try again later.");
-      });
+    .then((res) => console.log(res));
 }
+
+
+// (response) => {
+//     console.log("SUCCESS!", response.status, response.text);
+//     alert("Your inquiry has been sent successfully. We'll get back to you shortly.");
+//     form.reset(); // clear form fields
+//   }, (error) => {
+//     console.log("FAILED...", error);
+//     alert("Oops! Something went wrong. Please try again later.");
+// }
